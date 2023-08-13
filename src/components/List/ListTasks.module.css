@@ -1,0 +1,6 @@
+.tasksList {
+    max-width: 46rem!important;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+}

@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 46rem!important;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width:768px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}

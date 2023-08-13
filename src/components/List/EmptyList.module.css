@@ -1,0 +1,31 @@
+.emptyList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+.emptyList img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.content {
+    margin-top: 1rem;
+    text-align: center;
+    color: var(--gray-300);
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.content h1, .content h2 {
+    font-size: 1rem;
+}
+
+.content h1 {
+    font-weight: bold;
+}
+.content h2 {
+    font-weight: 400;
+}

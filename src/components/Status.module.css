@@ -1,0 +1,22 @@
+.status {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.total {
+    color: var(--blue);
+}
+
+.done {
+    color: var(--purple);
+}
+
+.status span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0.125rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}

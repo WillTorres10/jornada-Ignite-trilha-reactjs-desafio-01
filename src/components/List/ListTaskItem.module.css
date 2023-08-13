@@ -1,0 +1,86 @@
+.listItem {
+    width: 100%;
+    color: var(--gray-100);
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    border-radius: 8px;
+    display: flex;
+    align-items: start;
+    padding: 1rem;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+}
+
+.checkboxChecked, .checkboxUnchecked {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100% !important;
+    border: 2px solid;
+    transition: all 0.1s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkboxUnchecked {
+    border-color: var(--blue);
+}
+
+.checkboxUnchecked:hover {
+    background: var(--blue-dark);
+}
+
+.checkboxChecked {
+    border-color: var(--purple-dark);
+    background: var(--purple-dark);
+}
+
+.checkboxChecked:hover {
+    border-color: var(--purple);
+    background: var(--purple);
+}
+
+.listItem p {
+    width: 39.5rem;
+    font-size: 0.875rem;
+    margin: 0 1rem 0 1rem;
+    line-height: 1.5rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.textDone {
+    text-decoration-line: line-through;
+    color: var(--gray-300);
+    transition: all 0.1s ease-in-out;
+}
+
+.trashButton, .trashButtonDone {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: all 0.1s ease-in-out;
+}
+
+.trashButton:hover, .trashButtonDone {
+    background: var(--gray-400);
+}
+
+.trashButton button, .trashButtonDone button {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: var(--gray-300);
+    font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trashButton button:hover, .trashButtonDone button {
+    color: var(--danger);
+}
